@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+/*===============================CABEÇALHO*/
+
+.menu{
+    margin:0 center;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.menu a:hover{
+    color: #FBDFDB;
+}
+
+.menu img{
+    margin-left: 300px;
+
+}
+
+.re{
+    padding-left: 50px;
+}
+
+.menu a + a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*================================MAIN INICIAL*/
+
+.bunner{
+    margin-top: 20px;
+    background-color:  #FBDFDB;
+    font-family: 'Roboto', sans-serif;
+    width: 940px;
+    height: 366px;
+    border-radius: 30px;
+    margin-left: 300px;
+}
+
+.texto-bunner{
+    float: left;
+    margin-left: 60px;
+    margin-top: 117px;
+}
+
+.texto-bunner p{
+    opacity: 70%;
+    font-size: 18px;
+}
+
+.chef{
+    float: right;
+    margin-right: 100px;
+    margin-top: 66px;
+}
+
+.mais{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 300px;
+    padding-top: 40px;
+}
+
+.mais-imagem img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.mais-olhados{
+    max-width: 945px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.mais-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+}
+
+.mais-autor{
+    color: #777777;
+}
+
+/*================================MAIN RECEITAS*/
+
+.receitas{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 300px;
+    margin-top: 20px;
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.receita-imagem img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.receita-titulo{
+    font-size:18px;
+}
+
+.receita-autor{
+    font-size: 14px;
+    color: #777777;
+}
+
+
+/*================== MODAL RECEITAS ATIVO*/
+
+.modal-overlay{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal{
+    background-color: whitesmoke;
+    width: 660px;
+    height: 413px;
+    margin: 15vh auto;
+    border-radius: 15px;
+}
+
+.modal .close-modal{
+    position: absolute;
+    bottom: 320px;
+    margin-left: 320px;
+    cursor: pointer;
+    font-size: 16px;
+    color:#999999;
+
+}
+
+/*================== MODAL RECEITAS DESATIVADO*/
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-imagem{
+    width: 640px;
+    height: 225px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.modal .modal-imagem img{
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 1px;
+}
+
+#modal-titulo {
+    text-align: center;
+    font-size: 24px;
+}
+
+#modal-autor{
+    text-align: center;
+    font-size: 18px;
+    color: #777777;
+}
+
+/*=================================MAIN SOBRE*/
+
+.sobre{
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre h1{
+ font-size:24px;
+ padding-bottom: 15px;
+}
+
+.sobre h2,h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.sobre p,p2,p3{
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #444444;
+}
+
+/*==================================FOOTER SOBRE*/  
+
+.pe{
+    margin-top: 90px;
+    background-color: #EEEEEE;
+    height:50px ;
+    line-height: 50px;
+}
+
+.pe p{
+    font-family: 'Roboto', sans-serif;
+    color:  #999999;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
